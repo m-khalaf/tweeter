@@ -1,0 +1,38 @@
+.new-tweet{
+display: flex;
+flex-direction: column;
+
+}
+
+.new-tweet label{
+display: block;
+color: #7b776b;
+font-weight:600;
+}
+
+.new-tweet textarea{
+  background-color: #f4f1ec;
+  width: 100%;
+  border-style: hidden;
+  border-bottom: 5px solid #545149;;
+}
+
+.new-tweet div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-tweet button{
+  font-family: "Bungee", sans-serif;
+  color: white;
+  background-color: #4056A1;
+  border-style: hidden;
+}
+
+.new-tweet .counter {
+  font-family: "Bungee", sans-serif;
+}
+
+.red{
+  color: red;
+}
