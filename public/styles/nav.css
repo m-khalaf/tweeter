@@ -32,11 +32,11 @@ align-items: center;
 align-self: flex-end;
 }
 
-i{
+.tweet-icon i{
   color: red;
 }
 
-header{
+.nav-header{
   height: 520px;
   width: 100%;
   display: flex;
@@ -45,4 +45,5 @@ header{
   align-items: center;
   background-color: #e67f00;
   background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+  background-size: auto;
 }
