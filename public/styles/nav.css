@@ -1,0 +1,48 @@
+nav {
+  display:flex;
+  font-family: "Bungee";
+  box-sizing: border-box;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-bottom: 0.5em;
+  position: fixed;
+}
+
+nav span {
+  font-family: "Bungee";
+  align-self: flex-end;
+  font-size: 200%;
+}
+
+.nav-tweet {
+  font-family: sans-serif;
+  font-size:medium;
+  font-weight: 100;
+}
+
+.tweet-icon{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: flex-end;
+}
+
+i{
+  color: red;
+}
+
+header{
+  height: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #e67f00;
+  background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+}
