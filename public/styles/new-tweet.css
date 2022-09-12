@@ -19,7 +19,7 @@ font-weight:600;
   outline: none;
 }
 
-.new-tweet div{
+.form-footer{
   display: flex;
   justify-content: space-between;
   margin-top:1% ;

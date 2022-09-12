@@ -11,7 +11,7 @@
 
 #tweet-container article>p {
   margin-left: 2%;
-  font-size:larger;
+  font-size: larger;
   margin-bottom: 1.5em;
 }
 
@@ -53,7 +53,7 @@
 
 #tweet-container footer p {
   margin-top: auto;
-  font-size:medium;
+  font-size: medium;
   font-weight: 600;
 }
 
@@ -69,4 +69,34 @@
 #tweet-container footer div:hover {
   cursor: pointer;
 
+}
+
+.error {
+  display:none;
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+  text-align: left;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.error i.ico {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bar {
+  position: relative;
+}
+
+div.close {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  color: #888;
+  cursor: pointer;
 }
