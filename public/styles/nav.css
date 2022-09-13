@@ -63,3 +63,19 @@ nav span {
   background-image: url("https://www.transparenttextures.com/patterns/buried.png");
   background-size: auto;
 }
+
+@media (min-width:1024px){
+  .nav-header{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10%;
+
+  } 
+  .container{
+    width: 55%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+  }
+}
