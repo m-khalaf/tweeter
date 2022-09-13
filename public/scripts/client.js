@@ -59,8 +59,8 @@ const loadTweets = function () {
   })
 }
 
-const errMsg = function(text){
-  if($(".error").css('display')==='block'){
+const errMsg = function (text) {
+  if ($(".error").css('display') === 'block') {
     return;
   }
   $(".error>span").append(`${text}`)
@@ -80,7 +80,7 @@ $(document).ready(function () {
     const submitted_Data = $(this).find('#tweet-text').val();
     if (submitted_Data === '') {
       errMsg('you are submitting an empty tweet...try again')
-      
+
     } else if (submitted_Data.length > 140) {
       errMsg('you are exceeding the max chars...try again')
 
@@ -91,12 +91,20 @@ $(document).ready(function () {
           $(".error").hide();
           loadTweets()
         });
-
-
     }
-
   })
 
+  const writeNewTweet = $('.tweet-icon>.nav-tweet');
+  writeNewTweet.click(function (event) {
+    event.stopPropagation();
+    if($('.new-tweet').css('display')==='flex'){
+      $('.new-tweet').slideUp('slow');
+    }else if ($('.new-tweet').css('display')==='none'){
+      $('.new-tweet').slideDown('slow');
+      $('#tweet-text').focus();
+
+    }
+  })
 })
 
 
