@@ -16,3 +16,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+!["Screenshot of tweet compose box"](https://github.com/m-khalaf/tweeter/blob/master/docs/Post-Tweet.png?raw=true)
+
+!["Posted Tweet"](https://github.com/m-khalaf/tweeter/blob/master/docs/Posted-Tweet.png?raw=true)
+
+!["Tablet View"](https://github.com/m-khalaf/tweeter/blob/master/docs/Tablet-View.png?raw=true)
